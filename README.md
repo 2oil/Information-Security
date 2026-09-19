@@ -11,14 +11,11 @@
 본인의 음성을 이용한 **Voice Cloning**, **화자인증(ASV)**, **딥페이크 음성 탐지(CM)**,  
 **Spoofing-Aware Speaker Verification(SASV)** 실습을 수행할 수 있습니다.
 
-실습 후반부에서는 제공된 DEV/EVAL score 파일을 이용하여  
-다양한 **Score Fusion 방식**을 설계하고 SASV 성능을 비교합니다.
-
 ---
 
 ## 💡 실습 자료
 
-Score Fusion 실습을 위해 다음 파일을 함께 제공합니다.
+Score Fusion 실습을 위해 ASVspoof2019 데이터셋의 다음 파일을 함께 제공합니다.
 
 - `dev_scores.csv` : Score Fusion 방식 설계 및 성능 비교
 - `eval_scores.csv` : DEV에서 선택한 방식의 최종 성능 평가
